@@ -1,0 +1,104 @@
+{
+  "navbar": {
+    "about": "About me",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact",
+    "label_languages": "Languages"
+  },
+  "about_view": {
+    "section": "About me",
+    "title": "I am Pablo Fuentes, glad to meet you!",
+    "body": [
+      "I am an electronic engineer and a self-taught software developer passionate about learning new things. My first obsession was the firmware development for microcontrollers, which lead me to start in the Automatic Shrimp Feeders area.",
+      "However, microcontroller firmware is not enough to satisfy customer needs, that's why I decided to learn new programming languages like Go, Flutter, ReactJS, NextJS; they allowed me to develop full solutions."
+    ]
+  },
+  "skills_view": {
+    "section": "Tech Skills",
+    "skill_groups": [
+      "Embedded software development",
+      "Backend development",
+      "Mobile development",
+      "Web development",
+      "Databases",
+      "Version controlling",
+      "Operating Systems"
+    ]
+  },
+  "experience_view": {
+    "section": "Experience",
+    "jobs": [
+      {
+        "title": "Software Engineer (Freelancer)",
+        "company": "Altiro Delivery",
+        "date_range": "June 2020 - February 2021",
+        "place": "Santiago, Chile",
+        "image": "images/altiro_driver.png",
+        "details": [
+          "Developed a server in Go that handled customer delivery requests and provided the most efficient route for drivers",
+          "Built an internal GUI in Go to manage the parcel orders.",
+          "Developed a front-end mobile application in Flutter for drivers. Deploy the app on Play Store and App Store."
+        ]
+      },
+      {
+        "title": "Software Engineer (Freelancer)",
+        "company": "Laboratorio de Larvas DPKSUR S.A.",
+        "date_range": "December 2020",
+        "place": "Huaquillas, Ecuador",
+        "image": "images/otter_wave_table.png",
+        "details": [
+          "Developed a Flutter app that shows a digital wave table useful for the shrimp farmers in the south of Ecuador. Deployment on App Store and Play Store."
+        ],
+        "google_play_url": "https://play.google.com/store/apps/details?id=com.ottert.wave_table",
+        "app_store_url": "https://apps.apple.com/us/app/tabla-de-mareas/id1663683428?platform=iphone"
+      },
+      {
+        "title": "Open Source Contributor",
+        "company": "Fyne",
+        "date_range": "January 2021 - November 2021",
+        "place": "",
+        "image": "images/fyne.png",
+        "details": [
+          "Fixed some UI bugs, race conditions, memory leaks and flaky tests.",
+          "Unified most of the common code used in Desktop and Mobile drivers.",
+          "Proposed new widget appearance according to Material Design Specifications."
+        ]
+      },
+      {
+        "title": "Software Engineer (Freelancer)",
+        "company": "Aso&Cam",
+        "date_range": "June 2021 - January 2022",
+        "place": "Huaquillas, Ecuador",
+        "image": "images/asocam_app.png",
+        "details": [
+          "Built a GraphQL server in Go that handled Aso&Cam customer orders and accounts.",
+          "Developed a storefront mobile app in Flutter that showed all the Aso&Cam products.",
+          "Deployment on App Store and Play Store."
+        ],
+        "google_play_url": "https://play.google.com/store/apps/details?id=com.asocam.app",
+        "app_store_url": "https://apps.apple.com/us/app/asocam/id1600166068"
+      },
+      {
+        "title": "Automatic Shrimp Feeder - Otter Feeder",
+        "company": "Otter Technologies with Laboratorio de Larvas DPKSUR S.A.",
+        "date_range": "Since July 2021",
+        "place": "Machala, Ecuador",
+        "image": "images/otter_feeder.png",
+        "details": [
+          "Built internal tools in Go that allowed easy management and flashing of the deployed devices (feeders).",
+          "Developed feeder device core circuit around STM32G0 microcontroller.",
+          "Developed the feeder device firmware in C that allows the device to work automatically following a user schedule that can be programmed through BLE communication.",
+          "Flashed firmware on STM32 series microcontroller.",
+          "Developed an end-user application in Flutter to let the customers configure their devices as they want.",
+          "Deployed user app on App Store and Play Store."
+        ],
+        "google_play_url": "https://play.google.com/store/apps/details?id=com.ottert.feeder",
+        "app_store_url": "https://apps.apple.com/us/app/otter-feeder/id1579728272"
+      }
+    ]
+  },
+  "footer": {
+    "developed_by": "Developed by"
+  }
+}
