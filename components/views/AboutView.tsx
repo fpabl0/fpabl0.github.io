@@ -57,7 +57,7 @@ export const AboutView = ({ id, dict }: Props) => {
                   <Image
                     src={MePhoto}
                     alt="Pablo Fuentes"
-                    width={400}
+                    height={370}
                   />
                 </div>
               </Grid>
