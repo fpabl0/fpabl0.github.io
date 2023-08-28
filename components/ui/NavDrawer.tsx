@@ -48,6 +48,7 @@ export const NavDrawer = ({ curLocale = "", dict }: Props) => {
         return;
       }
     }
+    setSelectedLink("");
   }, [router.asPath]);
 
   const onOpenDrawer = () => {
