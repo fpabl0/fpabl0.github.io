@@ -31,10 +31,11 @@ const viewsLinks: (keyof Dict["navbar"])[] = [
 ];
 
 type Props = {
+  curLocale?: string;
   dict: Dict['navbar'];
 };
 
-export const Navbar = ({ dict }: Props) => {
+export const NavDrawer = ({ curLocale = "", dict }: Props) => {
 
   const router = useRouter();
   const [selectedLink, setSelectedLink] = useState("");
@@ -65,10 +66,9 @@ export const Navbar = ({ dict }: Props) => {
           justifyContent: 'space-between'
         }}>
 
-          <NextLink href="/" passHref legacyBehavior>
+          <NextLink href={`/${curLocale}`} passHref legacyBehavior>
             <Link sx={{ ml: 0.5 }} display="flex" alignItems="center" flexDirection="row" underline="none">
-              <Logo size={30} />
-              {/* <Typography fontFamily="Playball, cursive" fontSize={30} variant="h6">Pf</Typography> */}
+              <Logo />
             </Link>
           </NextLink>
 
@@ -130,8 +130,9 @@ const MobileDrawer = ({ dict, isDrawerOpen, onCloseDrawer }: DrawerProps) => {
     <Box sx={{ textAlign: 'center' }}>
       <NextLink href="/" passHref legacyBehavior>
         <Link display="flex" justifyContent="center" alignItems="center" flexDirection="row" underline="none">
-          <Logo sx={{ my: 2 }} size={30} />
-          {/* <Typography sx={{ my: 2 }} fontFamily="Playball, cursive" fontSize={30} variant="h6">Pf</Typography> */}
+          <Box my={1} display="flex" justifyContent="center" alignItems="center">
+            <Logo />
+          </Box>
         </Link>
       </NextLink>
       <Divider />

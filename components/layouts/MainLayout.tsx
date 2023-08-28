@@ -3,7 +3,7 @@ import Head from "next/head";
 
 import Toolbar from "@mui/material/Toolbar";
 
-import { Navbar } from "../ui/Navbar";
+import { NavDrawer } from "../ui/NavDrawer";
 import { ScrollTop } from "../ui/ScrollTop";
 import { Footer } from "../ui/Footer";
 
@@ -12,13 +12,14 @@ import { Dict } from "@/get-dictionary";
 type Props = {
   title: string;
   description: string;
+  curLocale?: string;
   navbarDict: Dict['navbar'];
   footerDict: Dict['footer'];
   scrollToTopButton?: boolean;
   children: ReactNode | ReactNode[];
 };
 
-export const MainLayout = ({ title, description, navbarDict, footerDict, children, scrollToTopButton = false }: Props) => {
+export const MainLayout = ({ title, description, navbarDict, footerDict, children, scrollToTopButton = false, curLocale = "" }: Props) => {
   return (
     <>
       <Head>
@@ -29,10 +30,8 @@ export const MainLayout = ({ title, description, navbarDict, footerDict, childre
       </Head>
 
       <nav id="main-nav">
-        <Navbar dict={navbarDict} />
+        <NavDrawer curLocale={curLocale} dict={navbarDict} />
       </nav>
-
-      {/* MobileNavBar */}
 
       <main>
         {children}

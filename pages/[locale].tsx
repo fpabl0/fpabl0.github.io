@@ -30,6 +30,7 @@ const IndexLocalePage = ({ locale, dict }: Props) => {
     <MainLayout
       title="Pablo Fuentes"
       description="Pablo Fuentes - Electronic & Software Engineer"
+      curLocale={locale}
       navbarDict={dict.navbar}
       footerDict={dict.footer}
       scrollToTopButton

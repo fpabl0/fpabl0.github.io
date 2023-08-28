@@ -10,8 +10,8 @@
     "section": "About me",
     "title": "I am Pablo Fuentes, glad to meet you!",
     "body": [
-      "I am an electronic engineer and a self-taught software developer passionate about learning new things. My first obsession was the firmware development for microcontrollers, which lead me to start in the Automatic Shrimp Feeders area.",
-      "However, microcontroller firmware is not enough to satisfy customer needs, that's why I decided to learn new programming languages like Go, Flutter, ReactJS, NextJS; they allowed me to develop full solutions."
+      "I am an electronic engineer and a self-taught software developer passionated about learning new things. I love challenging myself and the way how it leads me to improve my coding skills. That's the reason I started developing some apps as a freelancer and created my own project called Otter Automatic Shrimp Feeder.",
+      "Considering software technologies and patterns are likely to change really fast, I am always open to study them and so expanding my skill set."
     ]
   },
   "skills_view": {

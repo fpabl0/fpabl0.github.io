@@ -3,11 +3,12 @@ import type { GetStaticProps } from "next";
 import { useEffect } from "react";
 import Cookies from 'js-cookie';
 
+import CircularProgress from "@mui/material/CircularProgress";
+
 import { type Dict, getDictionary } from "@/get-dictionary";
 
 import { MainLayout } from "@/components/layouts/MainLayout";
 import { i18n } from "@/i18n-config";
-import CircularProgress from "@mui/material/CircularProgress";
 
 
 type Props = {
