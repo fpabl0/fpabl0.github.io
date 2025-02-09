@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "dev.fpabl0.tide_table",
+        "sha256_cert_fingerprints":
+        ["00:CA:62:E8:76:9D:6E:21:45:D2:F7:F1:00:1C:A4:65:EE:BE:77:A6:D5:62:EF:FF:80:26:E2:07:6D:B0:88:D3"]
+      }
+  }
+]
