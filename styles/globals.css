@@ -39,3 +39,15 @@ html {
   font-size: 14px;
   font-weight: 700;
 }
+
+.app-link-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-link-text {
+  text-align: center;
+  font-size: 24px;
+}
